@@ -1,0 +1,45 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                SaveKommentar = id; 
+                nurMarkierteOption = id; 
+                reportAnzahl = id; 
+                reportAuswahl = id; 
+                reportKommentarOption = id; 
+                reportPopA = id; 
+                reportPopB = id; 
+                reportProjektAuswahlOption = id; 
+                reportProjektNamenOption = id; 
+                reportZusatz = id; 
+                showKommentar = id; 
+                toggleDrawer = id; 
+            }; 
+            CLASS = rKommentar; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AbsatzMatrix = id; 
+                Anz = id; 
+                AnzahlPop = id; 
+                AuswahlMatrix = id; 
+                AuswahlPopMenu = id; 
+                KommentarView = id; 
+                OptionDrawer = id; 
+                PopAMenu = id; 
+                PopAPrompt = id; 
+                PopBMenu = id; 
+                PopBPrompt = id; 
+                ProjektMatrix = id; 
+                ProjektPopMenu = id; 
+                ProjektPopPrompt = id; 
+                TextString = id; 
+                TitelString = id; 
+                ZusatzPop = id; 
+                nurMarkierteCheck = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

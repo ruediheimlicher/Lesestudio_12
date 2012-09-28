@@ -1,0 +1,40 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }, 
+        {
+            ACTIONS = {reportCancel = id; reportKopieren = id; }; 
+            CLASS = rProjektNamen; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                Kopierentaste = id; 
+                LesestudioString = id; 
+                ProjektOrdnerTable = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {Abbrechen = id; HomeDirectory = id; VolumeOK = id; }; 
+            CLASS = rVolumes; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AbbrechenKnopf = id; 
+                ComputerimNetzString = id; 
+                HomeKnopf = id; 
+                LesestudioString = id; 
+                OKKnopf = id; 
+                OderString = id; 
+                RecPlayIcon = id; 
+                StartString = id; 
+                SuchenKnopf = id; 
+                TitelString = id; 
+                VolumesPop = id; 
+                VolumesTable = NSTableView; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

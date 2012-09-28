@@ -1,0 +1,114 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = rEingabeFeld; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {reportCancel = id; reportClose = id; }; 
+            CLASS = rEinzelNamen; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                CancelTaste = id; 
+                DeleteTaste = id; 
+                LesestudioString = id; 
+                NamenFeld = id; 
+                NamenListeView = id; 
+                SchliessenTaste = id; 
+                StartString = id; 
+                VornamenFeld = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                neueZeile = id; 
+                reportAuswahlen = id; 
+                reportCancel = id; 
+                reportClose = id; 
+                reportEntfernen = id; 
+            }; 
+            CLASS = rNamenListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AuswahlenTaste = id; 
+                EingabeFeld = id; 
+                EntfernenTaste = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                SchliessenTaste = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                reportCancel = id; 
+                reportClose = id; 
+                reportEingebenVariante = id; 
+                reportEinsetzenVariante = id; 
+                reportEntfernen = id; 
+                reportEntfernenPopMenu = id; 
+                reportImportieren = id; 
+                reportNameAusListe = id; 
+                reportNameInListe = id; 
+                reportNamenUbernehmen = id; 
+            }; 
+            CLASS = rProjektListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AusAllenProjektenCheck = id; 
+                EingebenVariante = id; 
+                EinsetzenVariante = id; 
+                EntfernenTaste = id; 
+                EntfernenVariante = id; 
+                ImportTaste = id; 
+                InAlleProjekteCheck = id; 
+                LesestudioString = id; 
+                NameAusListeTaste = id; 
+                NameFeld = id; 
+                NameInListeTaste = id; 
+                NamenTab = id; 
+                NamenTable = id; 
+                PfadFeld = id; 
+                SchliessenTaste = id; 
+                StartString = id; 
+                TitelString = id; 
+                UbernehmenTaste = id; 
+                VornameFeld = id; 
+                neueNamenTable = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {reportCancel = id; reportClose = id; reportFix = id; }; 
+            CLASS = rProjektListealt; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            ACTIONS = {neueZeile = id; reportCancel = id; reportClose = id; }; 
+            CLASS = rProjektStart; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {ACTIONS = {reportNeuesProjekt = id; }; CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = rEingabeFeld; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {
+                neueZeile = id; 
+                reportAuswahlen = id; 
+                reportCancel = id; 
+                reportClose = id; 
+                reportEntfernen = id; 
+            }; 
+            CLASS = rProjektListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AuswahlenTaste = id; 
+                CancelTaste = id; 
+                EingabeFeld = id; 
+                EntfernenTaste = id; 
+                FixTaste = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                PWTaste = id; 
+                ProjektTable = id; 
+                SchliessenTaste = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {reportCancel = id; reportClose = id; reportFix = id; }; 
+            CLASS = rProjektListealt; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            ACTIONS = {neueZeile = id; reportCancel = id; reportClose = id; }; 
+            CLASS = rProjektStart; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

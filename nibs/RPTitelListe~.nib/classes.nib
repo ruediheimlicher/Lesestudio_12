@@ -1,0 +1,83 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {ACTIONS = {reportNeuesProjekt = id; }; CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = rEingabeFeld; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {
+                neueZeile = id; 
+                reportAuswahlen = id; 
+                reportCancel = id; 
+                reportClose = id; 
+                reportEntfernen = id; 
+            }; 
+            CLASS = rProjektListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AuswahlenTaste = id; 
+                EingabeFeld = id; 
+                EntfernenTaste = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                SchliessenTaste = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {reportCancel = id; reportClose = id; reportFix = id; }; 
+            CLASS = rProjektListealt; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            ACTIONS = {neueZeile = id; reportCancel = id; reportClose = id; }; 
+            CLASS = rProjektStart; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                neueZeile = id; 
+                reportCancel = id; 
+                reportClose = id; 
+                reportEntfernen = id; 
+                reportNeuerTitel = id; 
+            }; 
+            CLASS = rTitelListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                EinsetzenTaste = id; 
+                EntfernenTaste = id; 
+                LesestudioString = id; 
+                ProjektFeld = id; 
+                SchliessenTaste = id; 
+                TitelArray = id; 
+                TitelString = id; 
+                TitelTable = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

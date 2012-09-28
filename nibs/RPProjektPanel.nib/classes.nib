@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {ACTIONS = {reportNeuesProjekt = id; }; CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = rEingabeFeld; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            ACTIONS = {
+                neueZeile = id; 
+                reportCancel = id; 
+                reportClose = id; 
+                reportNeuesProjekt = id; 
+            }; 
+            CLASS = rProjektListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {myAction = id; reportCancel = id; reportClose = id; }; 
+            CLASS = rProjektListePanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LeseStudioString = id; 
+                ProjektTable = id; 
+                SchliessenTaste = id; 
+                StartString = id; 
+                TitelString = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {
+                reportCancel = id; 
+                reportClose = id; 
+                reportFix = id; 
+                reportNeuesProjekt = id; 
+            }; 
+            CLASS = rProjektPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                EingabeFeld = id; 
+                InListeTaste = id; 
+                LesestudioString = id; 
+                ProjektTable = id; 
+                StartString = id; 
+                TitelString = id; 
+                window = id; 
+            }; 
+            SUPERCLASS = NSPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

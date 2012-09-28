@@ -1,0 +1,65 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = "java.lang.Object"; LANGUAGE = Java; }, 
+        {
+            ACTIONS = {
+                CleanOK = id; 
+                Clear = id; 
+                Export = id; 
+                NamenCheckAktion = id; 
+                NamenHeaderCheckAktion = id; 
+                TitelCheckAktion = id; 
+                TitelHeaderCheckAktion = id; 
+                cancelSheet = id; 
+                clearTitelListe = id; 
+                inMagazin = id; 
+                inPapierkorb = id; 
+                reportClear = id; 
+                reportClearAnzahl = id; 
+                reportClearBehaltenOption = id; 
+                reportEntfernenOption = id; 
+                reportExport = id; 
+                reportExportAnzahl = id; 
+                reportExportFormat = id; 
+                reportExportFormatOption = id; 
+                reportExportOption = id; 
+                reportExportOptionenTaste = id; 
+                reportNamen = id; 
+                reportNurTitelZuNamenOption = id; 
+                reportTitel = id; 
+                sofortWeg = id; 
+            }; 
+            CLASS = rClean; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                AnzahlTitelPop = id; 
+                ClearAnzahlPop = id; 
+                ClearBehaltenVariante = id; 
+                ClearTaste = id; 
+                EntfernenVariante = id; 
+                ExportAnzahlPop = id; 
+                ExportFormatPop = id; 
+                ExportFormatVariante = id; 
+                ExportOptionenTaste = id; 
+                ExportTaste = id; 
+                ExportVariante = id; 
+                NamenView = id; 
+                TaskTabSeite = id; 
+                TextString = id; 
+                TitelBehaltenVariante = id; 
+                TitelPop = id; 
+                TitelString = id; 
+                TitelView = id; 
+                alleNamenKlickCheck = id; 
+                alleTitelKlickCheck = id; 
+                clearListeTaste = id; 
+                nurTitelZuNamenCheck = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

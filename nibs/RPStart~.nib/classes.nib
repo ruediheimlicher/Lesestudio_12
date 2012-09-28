@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {ACTIONS = {reportNeuesProjekt = id; }; CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {reportCancel = id; reportClose = id; reportFix = id; }; 
+            CLASS = rProjektListe; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {Eingabe = id; FixTaste = id; ProjektView = id; window = id; }; 
+            SUPERCLASS = NSPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}
